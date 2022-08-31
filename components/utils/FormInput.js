@@ -1,7 +1,7 @@
 const FormInput = ({ type, placeholder }) => {
 	return (
-		<div>
-			<input type={type} placeholder={placeholder} />
+		<div className="text-black">
+			<input type={type} placeholder={placeholder} className="inputs" />
 		</div>
 	);
 };

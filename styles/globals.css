@@ -11,4 +11,7 @@
 	.onhover {
 		@apply transition duration-700;
 	}
+	.inputs {
+		@apply text-black font-bold tracking-wide focus:ring-1 focus:ring-orange border border-orange
+	}
 }
