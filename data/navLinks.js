@@ -1,19 +1,20 @@
 export const navLinks = [
     {
-        name: 'Decks',
-        link: '/',
+        name: 'Deck Services',
+        link: '/deck-services',
     },
-    {
-        name: 'Deck Maintenance',
-        link: '/',
-    },
+
     {
         name: 'Fences and Railings',
-        link: '/',
+        link: '/fences-railings',
+    },
+    {
+        name: 'About Us',
+        link: '/about-us',
     },
     {
         name: 'Contact',
-        link: '/',
+        link: '/contact-us',
     }, 
 
 ];

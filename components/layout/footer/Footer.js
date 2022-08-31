@@ -1,5 +1,17 @@
+import FollowUs from './FollowUs';
+import FooterContact from './footerContact';
+
 const Footer = () => {
-    return ( <div className="text-center text-2xl">footer</div> );
-}
- 
+	return (
+		<div className='bg-orange py-6'>
+			<div className='max-w-7xl mx-auto grid grid-cols-2 items-center px-2'>
+				<FooterContact />
+				<div className='justify-self-end md:justify-self-center'>
+					<FollowUs />
+				</div>
+			</div>
+		</div>
+	);
+};
+
 export default Footer;

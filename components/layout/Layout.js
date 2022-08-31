@@ -3,11 +3,11 @@ import Navbar from './navigation/Navbar';
 const Layout = ({ children }) => {
 	return (
 		<div className='flex flex-col h-screen'>
-			<div className="fixed w-full z-10">
+			<div className="">
 			<Navbar />
 			</div>
 			<main className='flex-grow'>{children}</main>
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 };

@@ -25,7 +25,7 @@ const DeckHero = () => {
 						</h2>
 					</div>
 					<div className='text-3xl mt-12 text-gray-50'>
-						<ButtonLink to={'/'} title={'Contact'} />
+						<ButtonLink to={'/contact-us'} title={'Contact'} />
 					</div>
 				</div>
 			</div>
