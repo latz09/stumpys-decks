@@ -3,7 +3,7 @@ import Navbar from './navigation/Navbar';
 const Layout = ({ children }) => {
 	return (
 		<div className='flex flex-col h-screen'>
-			<div className="">
+			<div className="z-20">
 			<Navbar />
 			</div>
 			<main className='flex-grow'>{children}</main>

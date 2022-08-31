@@ -2,8 +2,8 @@ import { AiFillPhone, AiOutlineMail } from 'react-icons/ai';
 
 const FooterContact = () => {
 	return (
-		<div className='grid gap-2  md:text-xl text-white mx-2'>
-			<h1 className='text-xl md:text-3xl'>{`Stumpys Deck Restoration, Inc.`}</h1>
+		<div className='grid gap-2  md:text-lg text-white mx-2 '>
+			<h1 className='text-xl md:text-2xl'>{`Stumpys Deck Restoration, Inc.`}</h1>
 			<div className='flex space-x-3 items-center'>
 				<span>
 					<AiFillPhone />{' '}
