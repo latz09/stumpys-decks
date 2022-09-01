@@ -20,7 +20,7 @@ const FenceHero = () => {
 						<span className='text-5xl font-bold'>Fences and Railings</span>
 						<span className='text-3xl '>Installation and repairs</span>
 						<div className='mt-3 text-3xl'>
-							<ButtonLink title={'Learn more'} to={'/'} />
+							<ButtonLink title={'Learn more'} to={'/fences-railings'} />
 						</div>
 					</div>
 				</div>

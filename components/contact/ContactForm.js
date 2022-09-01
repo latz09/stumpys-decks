@@ -17,7 +17,7 @@ const ContactForm = () => {
 				<textarea className='w-full resize-none inputs' rows='8'></textarea>
 			</div>
 			<div>
-				<button className='btn px-4 py-2 text-2xl bg-blue text-white tracking-widest '>
+				<button className='btn px-4 py-2 text-2xl bg-blue text-white tracking-widest font-bold'>
 					Submit
 				</button>
 			</div>
