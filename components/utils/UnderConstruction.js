@@ -9,7 +9,7 @@ const UnderConstruction = () => {
 			</h1>
 			<div className='grid md:grid-cols-3 max-w-5xl mx-auto place-items-center text-center'>
 				<div className='opacity-70 md:col-span-1 px-12 pb-3 md:p-0'>
-					<Image src={myLogo} alt='' />
+					<Image src={myLogo} alt='' layout='intrinsic' priority={true}/>
 				</div>
 				<div className='md:col-span-2 grid gap-4 text-left '>
 					<h1 className='text-xl md:text-3xl mx-8  md:leading-10'>
