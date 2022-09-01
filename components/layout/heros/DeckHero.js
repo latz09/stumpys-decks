@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import deck from '../../../public/images/heros/deckhero.jpg';
+import deck from '../../../public/images/heros/servicespage.jpg';
 import ButtonLink from '../../utils/ButtonLink';
 
 const DeckHero = () => {
@@ -11,7 +11,7 @@ const DeckHero = () => {
 				priority='true'
 				layout='fill'
 				objectFit='cover'
-				objectPosition='top'
+				objectPosition='left'
 				placeholder='blur'
 			/>
 

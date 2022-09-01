@@ -1,5 +1,12 @@
+import DeckServicePageHero from '../components/layout/heros/DeckServicePageHero';
+
 const DeckServices = () => {
-    return ( <div>deck services</div> );
-}
- 
+	return (
+		<>
+			<DeckServicePageHero />
+            
+		</>
+	);
+};
+
 export default DeckServices;
