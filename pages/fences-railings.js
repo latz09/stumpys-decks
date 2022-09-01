@@ -1,5 +1,11 @@
+import UnderConstruction from '../components/utils/UnderConstruction';
+
 const FencesAndRailings = () => {
-    return ( <div>Fences and railings</div> );
-}
- 
+	return (
+		<div>
+			<UnderConstruction />{' '}
+		</div>
+	);
+};
+
 export default FencesAndRailings;

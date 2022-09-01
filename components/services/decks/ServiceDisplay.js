@@ -15,7 +15,7 @@ const ServiceDisplay = ({ services }) => {
 				</div>
 			</div>
 			<div className='grid tracking-widest leading-6'>
-				<h1 className='text-center text-4xl py-3'>{services[0].title}</h1>
+				<h1 className='text-center text-4xl py-3 text-orange font-bold'>{services[0].title}</h1>
 				<div className='px-3 lg:text-xl'>{services[0].description}</div>
 				<div className='px-3 lg:text-xl mt-4 lg:mt-8'>{services[0].description}</div>
 				<div className='text-white mt-8 grid justify-center text-xl'>

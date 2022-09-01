@@ -9,9 +9,7 @@ const DeckServices = () => {
     const [data, setData] = useState(toggle);
     useEffect(() => {
        setData(toggle)
-    }, [toggle]);
-
-    
+    }, [toggle]);    
 
 	return (
 		<>

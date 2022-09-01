@@ -13,7 +13,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<div className='shadow-md w-full  top-0 left-0 z-10'>
+		<div className='shadow-md w-full top-0 left-0 z-10'>
 			<div className='bg-yellow-600'>
 				<div className='max-w-7xl mx-auto flex items-center justify-between pt-1 md:px-10 px-7 text-white tracking-widest'>
 					<Link href={'/'}>
@@ -65,9 +65,10 @@ const Navbar = () => {
 								key={link.name}
 								className='md:ml-8 text-base md:text-lg xl:text-2xl md:my-0 my-7 text-center '
 								onClick={() => setOpen(!open)}
+								disabled='true'
 							>
 								<Link href={link.link}>
-									<a className='hover:text-gray-300 transition duration-700 border-b border-yellow-400 pb-2  md:pb-0 decoration-4'>
+									<a className='hover:text-gray-300 transition duration-700 border-b border-yellow-400 pb-2  md:pb-0 decoration-4' >
 										{link.name}
 									</a>
 								</Link>
