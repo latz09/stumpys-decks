@@ -16,7 +16,7 @@ const DeckServices = () => {
 	return (
 		<>
 			{/* <DeckServicePageHero /> */}
-            <h1 className="text-center text-orange  text-5xl py-12">Deck Services</h1>
+            <h1 className="text-center text-orange  text-5xl pt-4 md:pt-8">Deck Services</h1>
 			<ToggleServices setToggle={setToggle} toggle={toggle} />
             <ServiceDisplay services={services.filter(service => service.category === data)} />
 
