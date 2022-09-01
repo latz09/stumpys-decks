@@ -1,10 +1,9 @@
 import Image from 'next/image';
-import mnOutline from '../../public/images/logo.png';
 import { awards } from '../../data/awards'; 
 
 const AboutBlurb = () => {
 	return (
-		<div className='grid gap-8 md:grid-cols-2 place-items-center max-w-7xl mx-auto py-12'>
+		<div className='grid gap-8 md:grid-cols-2 place-items-center max-w-7xl mx-auto py-12 '>
 			<div className='grid grid-cols-4 items-center gap-7 px-8 order-2 '>
 				{awards.map(award => (
 					<div key={award.title} className="">
@@ -13,7 +12,7 @@ const AboutBlurb = () => {
 				))}
 				
 			</div>
-			<div className='text-lg md:text-2xl tracking-wider grid gap-2 px-3 '>
+			<div className='text-xl md:text-2xl tracking-wider grid gap-2 px-3 '>
 				<span>
 					Serving the Twin Cities since 1983,{' '}
 					<span className=''>
