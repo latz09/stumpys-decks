@@ -6,6 +6,7 @@ import DeckServicesHero from '../components/layout/heros/DeckServicesHero';
 import FeaturedServices from '../components/services/decks/FeaturedServices';
 import FenceHero from '../components/layout/heros/FenceHero';
 import Reviews from '../components/reviews/Reviews';
+import ButtonLink from '../components/utils/ButtonLink';
 
 export default function Home() {
 	return (
@@ -15,7 +16,10 @@ export default function Home() {
 			<DeckServicesHero />
 			<FeaturedServices services={services} />
 			<FenceHero />
-			<Reviews reviews={reviews} /> 
+			<Reviews reviews={reviews} />
+			<div className="pb-8 grid justify-center text-white text-2xl">
+				<ButtonLink to={'/contact-us'} title={'Contact us!'} />
+			</div>
 		</div>
 	);
 }
