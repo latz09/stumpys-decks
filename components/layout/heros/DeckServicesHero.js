@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import deck from '../../../public/images/heros/deckhero2.jpg';
-
+import { IoIosArrowDown } from 'react-icons/io';
 
 const DeckServicesHero = () => {
 	return (
@@ -16,11 +16,12 @@ const DeckServicesHero = () => {
 
 			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-70'>
 				<div className='max-w-6xl mx-auto  text-white  tracking-widest  '>
-					<div className='grid gap-3 mx-3 text-center text-gray-100 '>
+					<div className='grid gap-3 mx-3  text-gray-100 '>
 						<span className='text-5xl font-bold'>We got you covered</span>
 						<span className='text-3xl '>
 							From full deck builds to deck repair and maintenance
 						</span>
+						<span className="place-self-center text-5xl text-orange animate-pulse"><IoIosArrowDown /> </span>
 					</div>
 				</div>
 			</div>
