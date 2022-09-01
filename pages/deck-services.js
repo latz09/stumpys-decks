@@ -1,46 +1,24 @@
 import DeckServicePageHero from '../components/layout/heros/DeckServicePageHero';
 import ToggleServices from '../components/services/decks/ToggleServices';
 import { services } from '../data/services';
-import ButtonLink from '../components/utils/ButtonLink';
-import { useState } from 'react';
-import Build from '../components/services/decks/Build';
-import Repair from '../components/services/decks/Repair';
-import Maintenance from '../components/services/decks/Maintenance';
+import { useState, useEffect } from 'react';
+import ServiceDisplay from '../components/services/decks/ServiceDisplay';
 
 const DeckServices = () => {
-	const [toggle, setToggle] = useState(1);
+	const [toggle, setToggle] = useState('deck-building');
+    const [data, setData] = useState(toggle);
+    useEffect(() => {
+       setData(toggle)
+    }, [toggle]);
+
+    
 
 	return (
 		<>
 			<DeckServicePageHero />
 			<ToggleServices setToggle={setToggle} toggle={toggle} />
-			{toggle === 1 && (
-				<Build
-					services={services.filter(
-						(service) => service.category === 'deck-building'
-					)}
-				/>
-			)}
-			{toggle === 2 && (
-				<Repair
-					services={services.filter(
-						(service) => service.category === 'deck-repair'
-					)}
-				/>
-			)}
-			{toggle === 3 && (
-				<Maintenance
-					services={services.filter(
-						(service) =>
-							service.category !== 'deck-building' &&
-							service.category !== 'deck-repair'
-					)}
-				/>
-			)}
+            <ServiceDisplay services={services.filter(service => service.category === data)} />
 
-			<div className='text-white py-24 grid justify-center'>
-				<ButtonLink to={'/contact-us'} title='Request a quote' />
-			</div>
 		</>
 	);
 };
