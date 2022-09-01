@@ -3,13 +3,13 @@ import deck from '../../../public/images/heros/servicespage.jpg';
 import { IoIosArrowDown } from 'react-icons/io';
 const DeckServicePageHero = () => {
 	return (
-		<div className='relative w-full h-[40vh]'>
+		<div className='relative w-full h-[90vh]'>
 			<Image
 				src={deck}
 				alt=''
 				layout='fill'
 				objectFit='cover'
-				objectPosition='center'
+				objectPosition='left'
 				placeholder='blur'
 			/>
 

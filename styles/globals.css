@@ -15,7 +15,7 @@
 		@apply text-black font-bold tracking-wide focus:ring-1 focus:ring-orange border border-orange;
 	}
 	.btn-toggle {
-		@apply px-4 py-2 border border-orange text-lg md:text-2xl  text-orange font-bold  tracking-wider shadow hover:shadow-lg  hover:bg-orange hover:text-white transition duration-700;
+		@apply py-1 md:py-2 border bg-white border-orange text-lg md:text-2xl  text-orange font-bold  tracking-wider shadow hover:shadow-lg  hover:bg-orange hover:text-white transition duration-700;
 	}
 	.btn-toggle-active {
 		@apply bg-orange text-white shadow-lg transition duration-700;
