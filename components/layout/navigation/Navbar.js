@@ -65,7 +65,7 @@ const Navbar = () => {
 								key={link.name}
 								className='md:ml-8 text-base md:text-lg xl:text-2xl md:my-0 my-7 text-center '
 								onClick={() => setOpen(!open)}
-								disabled='true'
+								
 							>
 								<Link href={link.link}>
 									<a className='hover:text-gray-300 transition duration-700 border-b border-yellow-400 pb-2  md:pb-0 decoration-4' >

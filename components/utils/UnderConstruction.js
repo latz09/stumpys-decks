@@ -10,7 +10,7 @@ const UnderConstruction = () => {
 			</h1>
 			<div className='max-w-4xl mx-auto grid place-items-center text-center py-12 mb-6 gap-4 '>
 				<h1 className='text-2xl md:text-4xl'>Other Pages on your redesign to explore--</h1>
-				<div className='flex space-x-4 items-center px-4'>
+				<div className='grid grid-cols-2 gap-3 items-center px-4'>
 					<Link href={'/'}>
 						<a className='p-2 md:p-3 bg-orange text-white md:text-xl font-bold tracking-widest'>
 							Home Page
@@ -24,6 +24,11 @@ const UnderConstruction = () => {
 					<Link href={'/contact-us'}>
 						<a className='p-2 md:p-3 bg-orange text-white md:text-xl font-bold tracking-widest'>
 							Contact us
+						</a>
+					</Link>
+					<Link href={'/gallery'}>
+						<a className='p-2 md:p-3 bg-orange text-white md:text-xl font-bold tracking-widest'>
+							Your Gallery
 						</a>
 					</Link>
 				</div>

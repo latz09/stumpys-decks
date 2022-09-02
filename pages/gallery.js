@@ -13,7 +13,6 @@ const Gallery = () => {
 							alt=''
 							layout='intrinsic'
 							placeholder='blur'
-                            priority='true'
 						/>
 					</div>
 				))}
