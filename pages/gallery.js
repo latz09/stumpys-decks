@@ -13,7 +13,7 @@ const Gallery = () => {
 							alt=''
 							layout='intrinsic'
 							placeholder='blur'
-                            priority={image.id === 1 && 'true' }
+                            priority='true'
 						/>
 					</div>
 				))}
