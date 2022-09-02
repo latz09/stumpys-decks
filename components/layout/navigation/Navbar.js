@@ -22,13 +22,13 @@ const Navbar = () => {
 							onClick={closeMenu}
 							aria-label='Navigate Home'
 						>
-							<div>
+							<div className="">
 								<Image
 									src={logo}
 									alt=''
 									layout='intrinsic'
-									height={80}
-									width={80}
+									height={65}
+									width={65}
 								/>
 							</div>
 						</button>

@@ -13,3 +13,11 @@ const ReviewItem = ({ name, review }) => {
 };
 
 export default ReviewItem;
+
+
+0
+
+// "We hired this company to rebuild our deck that another company butchered a few years back.  The quality of Stumpy's work was very evident from top to bottom.  Even the city inspector mentioned how impressed he was with the rebuilt deck.   The difference was night and day.  "
+
+
+

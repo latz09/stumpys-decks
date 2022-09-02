@@ -8,10 +8,10 @@ const DeckHero = () => {
 			<Image
 				src={deck}
 				alt=''
-				priority='true'
+				priority='true' 
 				layout='fill'
 				objectFit='cover'
-				objectPosition='left'
+				objectPosition='bottom'
 				placeholder='blur'
 			/>
 
