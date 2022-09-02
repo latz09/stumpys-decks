@@ -16,7 +16,7 @@ export default function Home() {
 			<DeckServicesHero />
 			<FeaturedServices services={services} />
 			<FenceHero />
-			<Reviews reviews={reviews.slice(2)} />
+			<Reviews reviews={reviews.slice(0, 3)} />
 			<div className="pb-8 grid justify-center text-white text-2xl">
 				<ButtonLink to={'/contact-us'} title={'Contact us!'} />
 			</div>
