@@ -8,7 +8,7 @@ const FeaturedServices = ({ services }) => {
 				<div className='xl:col-span-2 grid gap-6 justify-items-center  tracking-wider '>
 					<h1 className='text-4xl xl:text-6xl text-orange font-bold tracking-wider text-center'>Deck Services</h1>
 					<div className='hidden xl:block text-lg xl:text-3xl mt-4 text-white'>
-						<ButtonLink to={'/contact-us'} title={'Request Quote'} />
+						<ButtonLink to={'/gallery'} title={'Gallery'} />
 					</div>
 				</div>
 
@@ -23,7 +23,7 @@ const FeaturedServices = ({ services }) => {
 					))}
 				<div className='xl:hidden text-lg xl:text-3xl mt-8 text-white'>
 					<div className="text-center">
-						<ButtonLink to={'/contact-us'} title={'Request Quote'} />
+						<ButtonLink to={'/gallery'} title={'Gallery'} />
 						</div>
 					</div>
 				</div>
