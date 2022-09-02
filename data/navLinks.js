@@ -13,6 +13,10 @@ export const navLinks = [
         link: '/about-us',
     },
     {
+        name: 'Gallery',
+        link: '/gallery',
+    },
+    {
         name: 'Contact',
         link: '/contact-us',
     }, 
