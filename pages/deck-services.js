@@ -1,4 +1,3 @@
-import DeckServicePageHero from '../components/layout/heros/DeckServicePageHero';
 import ToggleServices from '../components/services/decks/ToggleServices';
 import { services } from '../data/services';
 import { useState, useEffect } from 'react';

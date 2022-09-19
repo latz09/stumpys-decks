@@ -24,7 +24,7 @@ const ToggleServices = ({ setToggle, toggle }) => {
 
 	return (
 		<div className='max-w-5xl mx-auto sticky top-0 z-10 mt-4'>
-			<div className='grid grid-cols-3 md:grid-cols-5 gap-4 justify-evenly items-center py-3 space-x-1 mx-1 bg-white bg-opacity-70 scrol'>
+			<div className='grid grid-cols-3 md:grid-cols-5 gap-4 justify-evenly items-center py-3 space-x-1 mx-1 bg-white bg-opacity-70'>
 				{toggleButtons.map((button) => (
 					<button
 						key={button.toggleName}
