@@ -13,11 +13,11 @@ const Contact = () => {
 					We look forward to hearing from you!
 				</motion.p>
 			</div> */}
-			<div className='text-blue tracking-widest text-center  text-2xl md:text-4xl font-semibold flex justify-center py-12 '>
+			<div className='text-blue tracking-widest text-center  text-2xl md:text-4xl font-semibold flex justify-center md:py-12 px-2'>
 				<motion.p
-					initial={{ opacity: 0 }}
-					animate={{ opacity: 1 }}
-					transition={{ delay: 0.3, duration: 1.4 }}
+					initial={{ opacity: 1 }}
+					animate={{ opacity: .5 }}
+					transition={{ delay: 1.2, duration: 4 }}
 				>
 					Please fill out our form and you will get back to you
 				</motion.p>
