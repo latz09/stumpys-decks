@@ -13,9 +13,9 @@ const Contact = () => {
 					We look forward to hearing from you!
 				</motion.p>
 			</div>
-			<div className='grid gap-4  p-4 md:w-1/2 mx-auto'>
+			<div className='grid gap-4  py-8 mx-[6px] md:w-1/2 md:mx-auto'>
 				<motion.div
-					className='relative bottom-16 bg-white shadow-lg'
+					className='relative bottom-16 bg-white '
 					initial={{y: '100vh'}}
 					animate={{y: 0}}
 					transition={{delay: .5, duration: 1.6}}
