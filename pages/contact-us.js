@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 
 const Contact = () => {
 	return (
-		<div className='bg-gray-50'>
-			<div className='bg-blue text-white text-center  text-2xl md:text-4xl font-bold tracking-wider flex justify-center pt-12 pb-20'>
+		<div className=' my-7 '>
+			{/* <div className='bg-blue text-white text-center  text-2xl md:text-4xl font-bold tracking-wider flex justify-center pt-12 pb-20'>
 				<motion.p
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
@@ -12,15 +12,26 @@ const Contact = () => {
 				>
 					We look forward to hearing from you!
 				</motion.p>
-			</div>
-			<div className='grid gap-4  py-8 mx-[6px] md:w-1/2 md:mx-auto'>
-				<motion.div
-					className='relative bottom-16 bg-white '
-					initial={{y: '100vh'}}
-					animate={{y: 0}}
-					transition={{delay: .5, duration: 1.6}}
+			</div> */}
+			<div className='text-blue tracking-widest text-center  text-2xl md:text-4xl font-semibold flex justify-center py-12 '>
+				<motion.p
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ delay: 0.3, duration: 1.4 }}
 				>
-					<ContactForm />
+					Please fill out our form and you will get back to you
+				</motion.p>
+			</div>
+			<div className='grid gap-4 mx-[6px] md:w-1/2 md:mx-auto'>
+				<motion.div
+					className='bg-white '
+					initial={{ y: '100vh' }}
+					animate={{ y: 0 }}
+					transition={{ delay: 1, duration: 1.6 }}
+				>
+					<div className="">
+						<ContactForm />
+					</div>
 				</motion.div>
 			</div>
 		</div>
