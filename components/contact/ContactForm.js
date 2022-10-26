@@ -3,7 +3,7 @@ import FormInput from '../utils/FormInput';
 const ContactForm = () => {
 	return (
 		<form className='grid gap-6 place-items-center tracking-wider shadow-lg px-3 py-8  bg-white'>
-			<h1 className='text-3xl md:text-4xl text-center text-gray-700 mb-2'>Please fill out this form and we will get back to you.</h1>
+			<h1 className='text-3xl md:text-4xl text-center text-gray-500 font-normal mb-2'>Please fill out this form and we will get back to you.</h1>
 			<div className='grid lg:grid-cols-2 gap-5 place-items-center px-2'>
 				<FormInput type='text' placeholder='Name...' />
 				<FormInput type='email' placeholder='Email...' />

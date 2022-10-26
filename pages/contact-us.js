@@ -1,15 +1,27 @@
 import ContactForm from '../components/contact/ContactForm';
+import { motion } from 'framer-motion';
 
 const Contact = () => {
 	return (
-		<div className="bg-gray-50">
+		<div className='bg-gray-50'>
 			<div className='bg-blue text-white text-center  text-2xl md:text-4xl font-bold tracking-wider flex justify-center pt-12 pb-20'>
-				<p>We look forward to hearing from you!</p>
+				<motion.p
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ delay: 2, duration: 1.4 }}
+				>
+					We look forward to hearing from you!
+				</motion.p>
 			</div>
 			<div className='grid gap-4  p-4 md:w-1/2 mx-auto'>
-				<div className='relative bottom-16 bg-white shadow-lg'>
+				<motion.div
+					className='relative bottom-16 bg-white shadow-lg'
+					initial={{y: '100vh'}}
+					animate={{y: 0}}
+					transition={{delay: .5, duration: 1.6}}
+				>
 					<ContactForm />
-				</div>
+				</motion.div>
 			</div>
 		</div>
 	);
