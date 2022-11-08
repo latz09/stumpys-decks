@@ -2,9 +2,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { RiMenu3Fill, RiCloseLine } from 'react-icons/ri';
 import { useState } from 'react';
-// import { MdHouseSiding } from 'react-icons/md';
 import logo from '../../../public/images/logo.png';
 import { navLinks } from '../../../data/navLinks';
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
@@ -22,7 +22,7 @@ const Navbar = () => {
 							onClick={closeMenu}
 							aria-label='Navigate Home'
 						>
-							<div className="">
+							<div className=''>
 								<Image
 									src={logo}
 									alt=''
@@ -65,10 +65,9 @@ const Navbar = () => {
 								key={link.name}
 								className='md:ml-8 text-base md:text-lg xl:text-2xl md:my-0 my-7 text-center '
 								onClick={() => setOpen(!open)}
-								
 							>
 								<Link href={link.link}>
-									<a className='hover:text-gray-300 transition duration-700 border-b border-yellow-400 pb-2  md:pb-0 decoration-4' >
+									<a className='hover:text-gray-300 transition duration-700  pb-2  md:pb-0 decoration-4'>
 										{link.name}
 									</a>
 								</Link>

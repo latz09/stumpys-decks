@@ -4,14 +4,14 @@ import { motion } from 'framer-motion';
 
 const AboutBlurb = () => {
 	return (
-		<div className='grid gap-8 md:grid-cols-2 place-items-center max-w-7xl mx-auto py-12 '>
-			<div className='grid grid-cols-4 items-center gap-7 px-8 order-2 '>
+		<div className='grid gap-12 lg:gap-8 lg:grid-cols-2 lg:place-items-center lg:my-20 max-w-7xl mx-auto  '>
+			<div className='grid grid-cols-4 place-items-center gap-7 px-8 order-2 '>
 				{awards.map((award) => (
 					<motion.div
 						key={award.title}
 						className=''
-						initial={{ y: -6 }}
-						animate={{ y: 6 }}
+						initial={{ y: -3 }}
+						animate={{ y: 3 }}
 						transition={{
 							duration: 2,
 							repeat: Infinity,
@@ -23,7 +23,7 @@ const AboutBlurb = () => {
 				))}
 			</div>
 			<motion.div
-				className='text-xl md:text-2xl tracking-wider grid gap-2 px-3 font-semibold text-gray-40 '
+				className='text-xl md:text-2xl tracking-wider grid gap-2 px-2 text-gray-700 font-normal '
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				transition={{ duration: 1, delay: 0.2 }}

@@ -10,7 +10,7 @@ import ButtonLink from '../components/utils/ButtonLink';
 
 export default function Home() {
 	return (
-		<div>
+		<div className="grid gap-20 bg-[#FFFDFA] pb-20">
 			<DeckHero />
 			<AboutBlurb />
 			<DeckServicesHero />
@@ -23,3 +23,4 @@ export default function Home() {
 		</div>
 	);
 }
+// 

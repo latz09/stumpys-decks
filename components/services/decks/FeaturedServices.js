@@ -3,7 +3,7 @@ import FeaturedItem from './FeaturedItem';
 
 const FeaturedServices = ({ services }) => {
 	return (
-		<div className='py-12 bg-gray-100 text-gray-700 '>
+		<div className='text-gray-700 '>
 			<div className='grid xl:grid-cols-4 place-items-center max-w-7xl mx-auto'>
 				<div className='xl:col-span-2 grid gap-6 justify-items-center  tracking-wider '>
 					<h1 className='text-4xl xl:text-6xl text-orange font-bold tracking-wider text-center'>Deck Services</h1>
